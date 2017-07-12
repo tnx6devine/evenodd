@@ -1,8 +1,13 @@
 def evenoddfunction(number)
 	if number % 2 == 0
 		"even"
-	else 
+	elsif number == "wombat"
+		"no wombats allowed"
+	else
 		"odd"
 	end
+
+	
+
 end
 
