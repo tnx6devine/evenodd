@@ -14,6 +14,9 @@ class TestEvenOdd < Minitest::Test
 	def test_input_2_returns_even
 		assert_equal("even",evenoddfunction(2))
 	end
-	
+
+	def test_input_3_returns_odd
+		assert_equal("odd", evenoddfunction(3))
+	end
 
 end
