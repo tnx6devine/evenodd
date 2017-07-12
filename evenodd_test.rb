@@ -8,7 +8,7 @@ class TestEvenOdd < Minitest::Test
 	end
 
 	def test_input_1_returns_odd
-		assert_equal("odd",evenodd(1))
+		assert_equal("odd",evenoddfunction(1))
 	end
 
 end
