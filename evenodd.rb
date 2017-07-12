@@ -1,8 +1,8 @@
 def evenoddfunction(number)
-	if number == 1 || number == 3
-		"odd"
-	elsif number == 2
+	if number % 2 == 0
 		"even"
+	else 
+		"odd"
 	end
 end
 
