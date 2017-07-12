@@ -7,8 +7,8 @@ class TestEvenOdd < Minitest::Test
 		assert_equal(1, 1)
 	end
 
-	def test_assert_that_one_fail_returns
-		assert_equal(1,2)
+	def test_input_1_returns_odd
+		assert_equal("odd",evenodd(1))
 	end
 
 end
